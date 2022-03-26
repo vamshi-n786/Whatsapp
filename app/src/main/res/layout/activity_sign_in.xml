@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E3E3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="436dp"
+        android:layout_gravity="center_horizontal|center_vertical|fill_vertical"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/whatsapp" />
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FAF8F8"
+            android:ems="10"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:padding="9dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FAF8F8"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="9dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvClickSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:text="Click for SignUp?"
+            android:textAlignment="gravity"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_SignIn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_marginTop="25dp"
+            android:paddingLeft="16dp"
+            android:text="Sign In"
+            app:cornerRadius="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="131dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#F6F1F1"
+            android:drawableLeft="@drawable/ic_icons8_google"
+            android:paddingLeft="16dp"
+            android:text="Google"
+            android:textColor="#100F0F"
+            android:textColorHint="#1B1818"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:cornerRadius="14dp"
+            app:iconTint="#1C1818" />
+
+        <Button
+            android:id="@+id/btnfacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#2196F3"
+            android:drawableLeft="@drawable/ic_icons8_facebook__1_"
+            android:paddingLeft="16dp"
+            android:text="Facebook"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            app:cornerRadius="14dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/SignUpwithphone"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="Signup with phone"
+        android:textAlignment="viewStart"
+        android:textColor="#142478"
+        android:textSize="24sp"
+        tools:ignore="RtlCompat" />
+
+
+</LinearLayout>

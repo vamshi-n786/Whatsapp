@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "574512452959",
+    "firebase_url": "https://whatsapp-doop-default-rtdb.firebaseio.com",
+    "project_id": "whatsapp-doop",
+    "storage_bucket": "whatsapp-doop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574512452959:android:bf6eb2ce971144ed7552ea",
+        "android_client_info": {
+          "package_name": "com.example.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574512452959-dbsmu5o183m1f13qo3bfd5p9s76krphb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.whatsapp",
+            "certificate_hash": "212b33d8346916a8b1a3f79d862c4cf624595be3"
+          }
+        },
+        {
+          "client_id": "574512452959-4d7j57ti22pkthm42i997kj1lied9cps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvIrXnP5FM90W_8tcrIc2fyi-cdRHW8Fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574512452959-4d7j57ti22pkthm42i997kj1lied9cps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
